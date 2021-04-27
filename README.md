@@ -14,7 +14,7 @@ After installation run the following command
 php artisan podstream:install
 ```
 
-and run the migrations from there
+Push the migrations and then run them.
 
 ```bash
 php artisan migrate
