@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support question
+    url: https://podhost.fm
+    about: 'This repository is only for reporting bugs. If you need help using the library, click:'
