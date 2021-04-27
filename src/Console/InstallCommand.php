@@ -54,7 +54,7 @@ class InstallCommand extends Command
         copy(__DIR__.'/../../stubs/app/Models/Episode.php', app_path('Models/Episode.php'));
 
         // Actions...
-        copy(__DIR__.'/../../stubs/app/Actions/Podstream/AddPodcastMember.php', app_path('Actions/Podstream/AddPodcastManager.php'));
+        copy(__DIR__.'/../../stubs/app/Actions/Podstream/AddPodcastMember.php', app_path('Actions/Podstream/AddPodcastMember.php'));
         copy(__DIR__.'/../../stubs/app/Actions/Podstream/CreatePodcast.php', app_path('Actions/Podstream/CreatePodcast.php'));
         copy(__DIR__.'/../../stubs/app/Actions/Podstream/DeletePodcast.php', app_path('Actions/Podstream/DeletePodcast.php'));
         copy(__DIR__.'/../../stubs/app/Actions/Podstream/InvitePodcastMember.php', app_path('Actions/Podstream/InvitePodcastMember.php'));
